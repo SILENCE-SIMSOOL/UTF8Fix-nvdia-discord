@@ -1,11 +1,8 @@
 # UTF-8 Compatibility Fix
-
 A lightweight Windows command-line utility for enabling UTF-8 system locale compatibility and restoring the original system encoding later.
-
 This tool is mainly intended to help resolve application launch issues related to Windows system encoding, including issues that may affect Discord or NVIDIA App.
 
 ## Features
-
 - Enables Windows UTF-8 system locale compatibility
 - Automatically backs up the original system encoding
 - Restores the original encoding when needed
@@ -68,19 +65,14 @@ gcc -O2 -Wall UTF8Fix-nvdia-discord.c -o UTF8Fix-nvdia-discord.exe -ladvapi32
 ```
 
 ## Requirements
-
 - Windows
 - Administrator privileges
 - System restart after applying changes
 
 ## Notes
-
 This program modifies Windows system locale-related registry values.
-
 The original values are backed up before UTF-8 mode is enabled, so they can be restored later using the restore option.
 
 ## License
-
-This project is licensed under the MIT License.
-
-See the `LICENSE` file for details.
+This project is licensed under the MIT License.  
+See the [LICENSE](https://github.com/SILENCE-SIMSOOL/UTF8Fix-nvdia-discord/blob/main/LICENSE) file for details.
