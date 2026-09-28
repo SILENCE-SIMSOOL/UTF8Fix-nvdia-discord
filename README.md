@@ -2,6 +2,9 @@
 A lightweight Windows command-line utility for enabling UTF-8 system locale compatibility and restoring the original system encoding later.
 This tool is mainly intended to help resolve application launch issues related to Windows system encoding, including issues that may affect Discord or NVIDIA App.
 
+## Download
+You can download [HERE](UTF8Fix-nvdia-discord-1.0.0.exe)!
+
 ## Features
 - Enables Windows UTF-8 system locale compatibility
 - Automatically backs up the original system encoding
